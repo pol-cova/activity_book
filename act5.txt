@@ -1,0 +1,11 @@
+principal ()
+inicio
+real x, y, z, r
+imprimir "Escriba los valores de x, y, z "
+leer x, y, z
+r ← ( x + y + z ) / 3
+imprimir "El resultado es", r
+fin
+
+VARIABLES DE ENTRADA:x,y,z
+VARIABLES DE SALIDA:r

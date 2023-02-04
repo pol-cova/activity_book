@@ -1,0 +1,16 @@
+principal ()
+inicio
+real basemayor, basemenor, altura, area
+
+imprimir "Escribe la longitud de la base mayor"
+leer basemayor
+imprimir "Escribe la longitud de la base menor"
+leer basemenor
+imprimir "Escribir la altura"
+leer altura
+area ← (basemayor + basemenor) * altura / 2
+imprimir "El área del trapecio es" , area
+fin
+
+VARIABLES DE ENTRADA: basemayor,basemenor,altura
+VARIABLES DE SALIDA:area

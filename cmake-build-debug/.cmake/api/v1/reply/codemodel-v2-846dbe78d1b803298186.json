@@ -1,0 +1,114 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "activityBook",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "act2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-act2-Debug-52709dcb8fddfc74fff2.json",
+					"name" : "act2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "act3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-act3-Debug-d88a0114bba16ef11f9f.json",
+					"name" : "act3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "act4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-act4-Debug-1860fcabc2535de9fdf3.json",
+					"name" : "act4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "act5::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-act5-Debug-4abf5376daf1702d3c46.json",
+					"name" : "act5",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "esf::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-esf-Debug-2b83d3d318d88f388c05.json",
+					"name" : "esf",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hello::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hello-Debug-40f9555f068bf4129b6f.json",
+					"name" : "hello",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "scpr::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-scpr-Debug-4244552307fd22d6c7b8.json",
+					"name" : "scpr",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/paulcontreras/CLionProjects/activityBook/cmake-build-debug",
+		"source" : "/Users/paulcontreras/CLionProjects/activityBook"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

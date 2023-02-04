@@ -1,0 +1,9 @@
+/Users/paulcontreras/CLionProjects/activityBook/cmake-build-debug/CMakeFiles/act2.dir
+/Users/paulcontreras/CLionProjects/activityBook/cmake-build-debug/CMakeFiles/act3.dir
+/Users/paulcontreras/CLionProjects/activityBook/cmake-build-debug/CMakeFiles/hello.dir
+/Users/paulcontreras/CLionProjects/activityBook/cmake-build-debug/CMakeFiles/act4.dir
+/Users/paulcontreras/CLionProjects/activityBook/cmake-build-debug/CMakeFiles/act5.dir
+/Users/paulcontreras/CLionProjects/activityBook/cmake-build-debug/CMakeFiles/esf.dir
+/Users/paulcontreras/CLionProjects/activityBook/cmake-build-debug/CMakeFiles/scpr.dir
+/Users/paulcontreras/CLionProjects/activityBook/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/paulcontreras/CLionProjects/activityBook/cmake-build-debug/CMakeFiles/rebuild_cache.dir

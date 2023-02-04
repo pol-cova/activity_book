@@ -1,0 +1,325 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: activityBook
+# Configurations: Debug
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.5
+
+
+#############################################
+# Set configuration variable for custom commands.
+
+CONFIGURATION = Debug
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/paulcontreras/CLionProjects/activityBook/cmake-build-debug/
+# =============================================================================
+# Object build statements for EXECUTABLE target act2
+
+
+#############################################
+# Order-only phony target for act2
+
+build cmake_object_order_depends_target_act2: phony || CMakeFiles/act2.dir
+
+build CMakeFiles/act2.dir/activity2.c.o: C_COMPILER__act2_Debug /Users/paulcontreras/CLionProjects/activityBook/activity2.c || cmake_object_order_depends_target_act2
+  DEP_FILE = CMakeFiles/act2.dir/activity2.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu2x
+  OBJECT_DIR = CMakeFiles/act2.dir
+  OBJECT_FILE_DIR = CMakeFiles/act2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target act2
+
+
+#############################################
+# Link the executable act2
+
+build act2: C_EXECUTABLE_LINKER__act2_Debug CMakeFiles/act2.dir/activity2.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/act2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = act2
+  TARGET_PDB = act2.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target act3
+
+
+#############################################
+# Order-only phony target for act3
+
+build cmake_object_order_depends_target_act3: phony || CMakeFiles/act3.dir
+
+build CMakeFiles/act3.dir/activity3.c.o: C_COMPILER__act3_Debug /Users/paulcontreras/CLionProjects/activityBook/activity3.c || cmake_object_order_depends_target_act3
+  DEP_FILE = CMakeFiles/act3.dir/activity3.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu2x
+  OBJECT_DIR = CMakeFiles/act3.dir
+  OBJECT_FILE_DIR = CMakeFiles/act3.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target act3
+
+
+#############################################
+# Link the executable act3
+
+build act3: C_EXECUTABLE_LINKER__act3_Debug CMakeFiles/act3.dir/activity3.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/act3.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = act3
+  TARGET_PDB = act3.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target hello
+
+
+#############################################
+# Order-only phony target for hello
+
+build cmake_object_order_depends_target_hello: phony || CMakeFiles/hello.dir
+
+build CMakeFiles/hello.dir/helloWorld.c.o: C_COMPILER__hello_Debug /Users/paulcontreras/CLionProjects/activityBook/helloWorld.c || cmake_object_order_depends_target_hello
+  DEP_FILE = CMakeFiles/hello.dir/helloWorld.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu2x
+  OBJECT_DIR = CMakeFiles/hello.dir
+  OBJECT_FILE_DIR = CMakeFiles/hello.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target hello
+
+
+#############################################
+# Link the executable hello
+
+build hello: C_EXECUTABLE_LINKER__hello_Debug CMakeFiles/hello.dir/helloWorld.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/hello.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = hello
+  TARGET_PDB = hello.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target act4
+
+
+#############################################
+# Order-only phony target for act4
+
+build cmake_object_order_depends_target_act4: phony || CMakeFiles/act4.dir
+
+build CMakeFiles/act4.dir/act4.c.o: C_COMPILER__act4_Debug /Users/paulcontreras/CLionProjects/activityBook/act4.c || cmake_object_order_depends_target_act4
+  DEP_FILE = CMakeFiles/act4.dir/act4.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu2x
+  OBJECT_DIR = CMakeFiles/act4.dir
+  OBJECT_FILE_DIR = CMakeFiles/act4.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target act4
+
+
+#############################################
+# Link the executable act4
+
+build act4: C_EXECUTABLE_LINKER__act4_Debug CMakeFiles/act4.dir/act4.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/act4.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = act4
+  TARGET_PDB = act4.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target act5
+
+
+#############################################
+# Order-only phony target for act5
+
+build cmake_object_order_depends_target_act5: phony || CMakeFiles/act5.dir
+
+build CMakeFiles/act5.dir/act5.c.o: C_COMPILER__act5_Debug /Users/paulcontreras/CLionProjects/activityBook/act5.c || cmake_object_order_depends_target_act5
+  DEP_FILE = CMakeFiles/act5.dir/act5.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu2x
+  OBJECT_DIR = CMakeFiles/act5.dir
+  OBJECT_FILE_DIR = CMakeFiles/act5.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target act5
+
+
+#############################################
+# Link the executable act5
+
+build act5: C_EXECUTABLE_LINKER__act5_Debug CMakeFiles/act5.dir/act5.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/act5.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = act5
+  TARGET_PDB = act5.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target esf
+
+
+#############################################
+# Order-only phony target for esf
+
+build cmake_object_order_depends_target_esf: phony || CMakeFiles/esf.dir
+
+build CMakeFiles/esf.dir/espformat.c.o: C_COMPILER__esf_Debug /Users/paulcontreras/CLionProjects/activityBook/espformat.c || cmake_object_order_depends_target_esf
+  DEP_FILE = CMakeFiles/esf.dir/espformat.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu2x
+  OBJECT_DIR = CMakeFiles/esf.dir
+  OBJECT_FILE_DIR = CMakeFiles/esf.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target esf
+
+
+#############################################
+# Link the executable esf
+
+build esf: C_EXECUTABLE_LINKER__esf_Debug CMakeFiles/esf.dir/espformat.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/esf.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = esf
+  TARGET_PDB = esf.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target scpr
+
+
+#############################################
+# Order-only phony target for scpr
+
+build cmake_object_order_depends_target_scpr: phony || CMakeFiles/scpr.dir
+
+build CMakeFiles/scpr.dir/scpr.c.o: C_COMPILER__scpr_Debug /Users/paulcontreras/CLionProjects/activityBook/scpr.c || cmake_object_order_depends_target_scpr
+  DEP_FILE = CMakeFiles/scpr.dir/scpr.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu2x
+  OBJECT_DIR = CMakeFiles/scpr.dir
+  OBJECT_FILE_DIR = CMakeFiles/scpr.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target scpr
+
+
+#############################################
+# Link the executable scpr
+
+build scpr: C_EXECUTABLE_LINKER__scpr_Debug CMakeFiles/scpr.dir/scpr.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15
+  OBJECT_DIR = CMakeFiles/scpr.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = scpr
+  TARGET_PDB = scpr.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/paulcontreras/CLionProjects/activityBook/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/paulcontreras/CLionProjects/activityBook/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/paulcontreras/CLionProjects/activityBook -B/Users/paulcontreras/CLionProjects/activityBook/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Target aliases.
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/paulcontreras/CLionProjects/activityBook/cmake-build-debug
+
+build all: phony act2 act3 hello act4 act5 esf scpr
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE | ../CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build ../CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake: phony
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all
