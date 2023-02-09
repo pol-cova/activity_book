@@ -15,6 +15,7 @@ int main()
 
     /*
      * The function sizeof, return the size in bits for the variable.
+     * I used %lu, because is an unsigned long value.
      */
 
     printf("The value for int is: %d and his size: %lu bits \n", a, sizeof(a));
