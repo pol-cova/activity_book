@@ -18,9 +18,9 @@ int main()
      * I used %lu, because is an unsigned long value.
      */
 
-    printf("The value for int is: %d and his size: %lu bits \n", a, sizeof(a));
-    printf("The value for float is: %f and his size: %lu bits \n", b, sizeof(b));
-    printf("The value for char is: %c  and his size: %lu bit \n", c, sizeof(c));
-    printf("The value for double is: %lf and his size: %lu bits \n", d, sizeof(d));
+    printf("The value for int is: %d and his size: %lu bits \n", a, sizeof(int));
+    printf("The value for float is: %f and his size: %lu bits \n", b, sizeof(float ));
+    printf("The value for char is: %c  and his size: %lu bit \n", c, sizeof(char));
+    printf("The value for double is: %lf and his size: %lu bits \n", d, sizeof(double ));
 
 }
